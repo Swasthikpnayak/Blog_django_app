@@ -6,3 +6,24 @@ Pillow==9.2.0
 pytz==2022.1
 sqlparse==0.4.2
 tzdata==2022.1
+
+******************************Steps****************************
+1.pip install django
+2.pip install pillow
+3.Install the Froala Editor package using pip:
+   pip install froala-editor
+   INSTALLED_APPS = [
+    # ...
+    'froala_editor',
+    # ...
+                    ]
+4.install Django Rest Framework 
+  pip install djangorestframework
+  INSTALLED_APPS = [
+    # ...
+    'rest_framework',
+    # ...
+]
+5.python manage.py makemigrations
+6.python manage.py migrate
+7.python manage.py runserver
